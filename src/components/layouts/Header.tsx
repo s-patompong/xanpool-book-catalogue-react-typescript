@@ -2,7 +2,7 @@ import logo from './../../favicon.png';
 import { Link } from 'react-router-dom';
 import ScaleOnHover from '../displays/shared/animations/ScaleOnHover';
 
-export default function Header() {
+export default function Header(): JSX.Element {
   return (
     <div className="border-b-2 pb-6 border-gray-400 border-dashed">
       <div className="flex items-center justify-between">

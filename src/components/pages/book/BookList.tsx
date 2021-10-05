@@ -5,7 +5,7 @@ import BookCard from '../../displays/book/BookCard';
 import React from 'react';
 import Title from '../../layouts/Title';
 
-export default function BookList() {
+export default function BookList(): JSX.Element {
   const { isLoading, error, data: books } = useBooks();
 
   return (

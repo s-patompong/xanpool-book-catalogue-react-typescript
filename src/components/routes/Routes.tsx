@@ -24,7 +24,7 @@ const routes: RouteConfig[] = [
   },
 ];
 
-export default function Routes() {
+export default function Routes(): JSX.Element {
   return (
     <Switch>
       {routes.map((route: RouteConfig, index: number) => (

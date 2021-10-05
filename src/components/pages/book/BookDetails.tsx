@@ -9,7 +9,7 @@ type BookDetailsParams = {
   id: string;
 };
 
-export default function BookDetails() {
+export default function BookDetails(): JSX.Element {
   const { id } = useParams<BookDetailsParams>();
   const { isLoading, error, data: book } = useBook({ id: Number(id) });
 

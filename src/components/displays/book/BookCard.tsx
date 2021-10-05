@@ -1,11 +1,12 @@
 import { Book } from '../../../interfaces/Book';
 import { Link } from 'react-router-dom';
+import React from 'react';
 
 type BookCardProps = {
   book: Book;
 };
 
-export default function BookCard({ book }: BookCardProps) {
+export default function BookCard({ book }: BookCardProps): JSX.Element {
   return (
     <Link to={`/books/${book.id}`}>
       <div className="border rounded-lg p-6 hover:border-red-600 transition duration-500 hover:ring-4 hover:ring-red-700 hover:ring-opacity-50">

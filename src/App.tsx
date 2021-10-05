@@ -6,7 +6,7 @@ import { HelmetProvider } from 'react-helmet-async';
 
 const queryClient = new QueryClient();
 
-function App() {
+function App(): JSX.Element {
   return (
     <div className="font-open-sans">
       <HelmetProvider>

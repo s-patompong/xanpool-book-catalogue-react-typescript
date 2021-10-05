@@ -16,7 +16,7 @@ export default function QueryResultWrapper({
   error,
   errorMessage,
   children,
-}: QueryResultWrapperProps) {
+}: QueryResultWrapperProps): JSX.Element {
   return (
     <>
       {isLoading ? (
