@@ -1,13 +1,13 @@
 # Book Catalogue Backend in React + TypeScript
 
-First, make sure to run `npm install` after cloning the repository.
+This is a test project.
 
-## Dev
+## Dev Installation
 
-- Make sure to run `nvm use` to use the same node version with the code. Or you can read the version from .nvmrc file.
+- Copy `.env.example` and paste it as `.env` file. Change the variable to match your setup.
+- Run `nvm use` to use the same node version with the code. Or you can read the version from .nvmrc file if you don't have nvm installed.
+- Run `npm install` to install the dependencies.
 - To start the development server, run `npm run dev`.
-
-Don't forget to start the server as well, otherwise you won't be able to see the book list.
 
 ## Lint
 
