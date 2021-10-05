@@ -1,4 +1,4 @@
-# Book Catalogue Backend in React + TypeScript
+# Book Catalogue Frontend in React + TypeScript
 
 This is a test project.
 
