@@ -28,6 +28,8 @@ $ npm install
 
 # Boot up the development server
 $ npm run dev
+
+# Open http://localhost:4200/ in your browser to start the development
 ```
 
 ## Lint
