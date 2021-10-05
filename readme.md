@@ -2,17 +2,46 @@
 
 This is a test project.
 
-## Dev Installation
+## Installation
 
-- Copy `.env.example` and paste it as `.env` file. Change the variable to match your setup.
-- Run `nvm use` to use the same node version with the code. Or you can read the version from .nvmrc file if you don't have nvm installed.
-- Run `npm install` to install the dependencies.
-- To start the development server, run `npm run dev`.
+First, copy .env.example file to .env
+
+```bash
+$ cp .env.example .env
+```
+
+Then, edit `.env` file to make sure that the VITE_SERVER_URL is the correct server URL and port.
+For example, if the server is running at http://localhost:9999, update VITE_SERVER_URL like so:
+
+```
+VITE_SERVER_URL=http://localhost:9999
+```
+
+Once you've finished updating .env file, run these commands:
+
+```bash
+# Make sure to use the same node version with the repo
+$ nvm use
+
+# Install the dependencies
+$ npm install
+
+# Boot up the development server
+$ npm run dev
+```
 
 ## Lint
 
-- To line the code, run `npm run lint`.
+To line the code, run:
+
+```
+$ npm run lint
+```
 
 ## Format
 
-- To let prettify auto format the code, run `npm run format`.
+To let prettify auto format the code, run:
+
+```
+npm run format
+```
